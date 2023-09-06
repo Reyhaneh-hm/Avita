@@ -1,0 +1,325 @@
+@media screen and (max-width: 1360px) {
+    .circle-box .circle:nth-child(1) {
+        margin-right: 45.5%;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    @keyframes bg-home {
+        0% {
+            background-size: 120%;
+        }
+        50% {
+            background-size: 130%;
+        }
+        100% {
+            background-size: 120%;
+        }
+    }
+    .item-text2 {
+        margin: 52% 5%;
+    }
+    .overlay > .item-text1 {
+        left: 25px;
+        margin-top: -15%;
+    }
+    #footer-box {
+        column-gap: 28px;
+        margin-right: 0;
+    }
+    .circle-box .circle:nth-child(1) {
+        margin-right: 45%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    @keyframes bg-home {
+        0% {
+            background-size: 145%;
+        }
+        50% {
+            background-size: 155%;
+        }
+        100% {
+            background-size: 145%;
+        }
+    }
+    #top-menu>ul>li {
+        margin: 0 5px;
+    }
+    a.logo > img {
+        height: 60px;
+        margin-top: 15px;
+    }
+    h2 {
+        margin-top: 16%;
+    }
+    #service-box {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    .service {
+        flex-basis: 47%;
+    }
+    .text1 {
+        font-size: 15px;
+        margin: 35px 0 10px 0;
+    }
+    .circle-box .circle:nth-child(1) {
+        margin-right: 43.8%;
+    }
+    #gallery {
+        /*height: 445px;*/
+        /*flex-wrap: wrap;*/
+        /*row-gap: 20px;*/
+        grid-template-columns: auto auto;
+    }
+    /*#gallery>.item {*/
+    /*    flex-basis: 47%;*/
+    /*}*/
+    ul#filter {
+        width: 95%;
+    }
+    .overlay > .item-text1 {
+        margin-top: -5%;
+        font-size: 18px;
+        left: 10px;
+    }
+    .overlay:hover > .item-text1 {
+        font-size: 20px;
+        left: 25px;
+    }
+    .overlay > .item-text2 {
+        margin: 66% 5%;
+        font-size: 25px;
+    }
+    .overlay:hover > .item-text2 {
+        font-size: 22px;
+    }
+    #team-box {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .team {
+        flex-basis: 47%;
+    }
+    #footer-box {
+        flex-wrap: wrap;
+        gap: 20px 45px;
+    }
+    .footer {
+        flex-basis: 47%;
+    }
+    ul.footer-list>li {
+        margin: 2px -7px;
+        display: inline-block;
+    }
+    .footer>h4::before {
+        bottom: 0.5px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    @keyframes bg-home {
+        0% {
+            background-size: 140%;
+        }
+        50% {
+            background-size: 150%;
+        }
+        100% {
+            background-size: 140%;
+        }
+    }
+    #top-menu>ul {
+        display: none;
+    }
+    #container>h1 {
+        font-size: 52px;
+    }
+    #box-search {
+        width: 100%;
+    }
+    .service {
+        flex-basis: 50%;
+        padding: 25px 5px;
+    }
+    .service>.text-p {
+        font-size: 13px;
+    }
+    .fact {
+        flex-basis: 30%;
+    }
+    #facts-box {
+        column-gap: 45px;
+        flex-wrap: wrap;
+    }
+    #facts-part {
+        min-height: 660px;
+        box-shadow: inset 0 0 0 350px #000000bd;
+    }
+    .comment>.img-customer {
+        margin: 0 auto;
+        position: inherit;
+        right: 0;
+        top: 0;
+    }
+    .message {
+        width: 45px;
+    }
+    .name,.expertise,.my-star {
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+    .my-star .fa-star:nth-child(1) {
+        margin: 0;
+    }
+    .circle-box .circle:nth-child(1) {
+        margin-right: 41.7%;
+    }
+    .overlay:hover > .item-text1 {
+        font-size: 17px;
+    }
+    .overlay > .item-text2 {
+        margin: 60% 5%;
+        font-size: 20px;
+    }
+    .overlay:hover > .item-text2 {
+        font-size: 19px;
+    }
+    .column {
+        flex-basis: 30%;
+    }
+    #columns-box {
+        column-gap: 45px;
+        flex-wrap: wrap;
+    }
+    #footer-box {
+        gap: 16px 28px;
+    }
+    .footer>h4::before {
+        bottom: 0.8px;
+    }
+    #menu-box {
+        width: 100%;
+    }
+    .menu a:link,
+    .menu a:visited {
+        font-size: 19px;
+        font-weight: normal;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    a.logo > img {
+        height: 65px;
+        margin: 15px 0;
+    }
+    .fact {
+        flex-basis: 50%;
+    }
+    #comments-box {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .comment {
+        flex-basis: 50%;
+    }
+    .message {
+        width: 60px;
+        top: 45px;
+    }
+    ul#filter a:link, ul#filter a:visited {
+        display: block;
+    }
+    ul#filter {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    #gallery {
+        grid-template-columns: auto;
+    }
+    .overlay:hover > .item-text1 {
+        left: 40px;
+        font-size: 20px;
+    }
+    .overlay > .item-text2 {
+        margin: 70% 5%;
+        font-size: 24px;
+    }
+    .overlay:hover > .item-text2 {
+    font-size: 23px;
+    }
+    .team {
+        flex-basis: 50%;
+    }
+    #team-box {
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .circle-box .circle:nth-child(1) {
+        margin-right: 37.7%;
+    }
+    .column {
+        flex-basis: 50%;
+    }
+    #form-information {
+        flex-wrap: wrap;
+    }
+    form>#right, #left {
+        flex-basis: 50%;
+    }
+    #address {
+        bottom: -250px;
+    }
+    #form-information {
+        margin-bottom: 250px;
+    }
+    #footer-box {
+        margin: 0 5px;
+    }
+    a#logo2 > img {
+        height: 75px;
+        margin: 15px 106px -20px 0;
+    }
+    ul.footer-list>li {
+        display: block;
+    }
+    #footer-list2 {
+        margin-right: 95px;
+    }
+    #footer-box {
+        margin: 0 -6px;
+    }
+    #copyright>#copy>p,i {
+        font-size: 14px;
+    }
+    .fa-bars {
+        font-size: 25px;
+    }
+    .social-networks>li>a>i {
+        font-size: 22px;
+    }
+    ul.social-networks {
+        padding: 12px;
+    }
+    i.fa-phone,
+    .fa-envelope,
+    .fa-location-dot {
+        font-size: 50px;
+    }
+    .menu {
+        width: 80%;
+    }
+    #menu-box .menu:nth-child(odd) {
+        margin-right: 17%;
+    }
+    .menu a:link,
+    .menu a:visited {
+        font-weight: normal;
+    }
+}
