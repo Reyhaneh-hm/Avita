@@ -6,6 +6,6 @@ const showMenu = document.querySelector('#show-menu')
 
 const removeMenu = document.querySelector('#remove-menu')
     removeMenu.onclick = function () {
-        document.getElementById("box-mother-menu").classList.replace("box-mother-menu-open","box-mother-menu-close")
+        document.getElementById("box-mother-menu").classList.remove("box-mother-menu-close")
 }
 console.log()
