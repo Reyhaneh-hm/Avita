@@ -127,6 +127,13 @@ nav#top-menu {
     position: relative;
 }
 
+#top-menu li ul {
+    /*border: 1px solid red;*/
+    position: absolute;
+    line-height: 1.3;
+    display: none;
+}
+
 #top-menu > ul > li {
     overflow: hidden;
 }
@@ -1153,8 +1160,8 @@ i.fa-times:hover {
     top: 0;
     opacity: 0;
     z-index: 20;
-    transform: translateY(80%);
-    Transition: all 0.4s;
+    transform: translateY(99%);
+    Transition: all 0.5s;
 }
 
 #box-mother-menu.box-mother-menu-close {
